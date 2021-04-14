@@ -26,16 +26,8 @@ amqp.connect("amqp://localhost", function (connectionError, connection) {
         console.log(" [x] Received %s", msg.content.toString());
         var object = JSON.parse(msg.content);
 
-        console.log(object.roomnumber);
-
-        // Reservation.findOne({hotel: object.hotel, roomnumber: object.roomnumber}, function(err, docs){
-        //     if(docs.length) {
-        //         console.log('reservation already exists')
-        //     }else{
-        //         Reservation.create(JSON.parse(msg.content))}
-        // })
-
-        let docs = await Reservation.findOne({hotel: object.hotel, roomnumber: object.roomnumber});
+        //checking for double booking
+        let docs = await Reservation.findOne({hotel: object.hotel, roomnumber: object.roomnumber, date: object.date});
                 
         if(docs) {
             console.log('reservation already exists')
