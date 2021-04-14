@@ -30,6 +30,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var hotelRouter = require('./routes/hotel')
+var reservationRouter = require('./routes/reservation')
 
 
 //////////////// SETUP ///////////////////
@@ -38,7 +39,7 @@ var hotelRouter = require('./routes/hotel')
 const swaggerDefinition = {
   openapi: '3.0.0',
   info: { 
-    title: 'Express API ABE_LAB01', 
+    title: 'Express API ABE_LAB03', 
     version: '1.0.0',
     description: 'This a rest API application made with Node/Express/Mongoose for educational purpose'
   },
@@ -88,11 +89,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/hotel', hotelRouter);
+app.use('/reservation', reservationRouter)
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
-});
+ app.use(function(req, res, next) {
+   next(createError(404));
+ });
 
 // error handler
 app.use(function(err, req, res, next) {

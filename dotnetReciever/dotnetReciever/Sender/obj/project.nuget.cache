@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "gn02CX1qaKD5wZkkAk+otkVvixjja39B2PlbKtcK4bqCcglhPFSusIhNk1LFuTJ86mCb3tU3fvEVa6IFWK72uw==",
+  "success": true,
+  "projectFilePath": "C:\\repos\\ABE\\ABE3\\dotnetReciever\\dotnetReciever\\Sender\\dotnetReciever.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brian\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\brian\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\brian\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

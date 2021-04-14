@@ -1,0 +1,15 @@
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\bin\Debug\netcoreapp3.1\dotnetReciever.exe
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\bin\Debug\netcoreapp3.1\dotnetReciever.deps.json
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\bin\Debug\netcoreapp3.1\dotnetReciever.runtimeconfig.json
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\bin\Debug\netcoreapp3.1\dotnetReciever.runtimeconfig.dev.json
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\bin\Debug\netcoreapp3.1\dotnetReciever.dll
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\bin\Debug\netcoreapp3.1\dotnetReciever.pdb
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\obj\Debug\netcoreapp3.1\dotnetReciever.AssemblyInfoInputs.cache
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\obj\Debug\netcoreapp3.1\dotnetReciever.AssemblyInfo.cs
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\obj\Debug\netcoreapp3.1\dotnetReciever.csproj.CoreCompileInputs.cache
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\obj\Debug\netcoreapp3.1\dotnetReciever.csproj.CopyComplete
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\obj\Debug\netcoreapp3.1\dotnetReciever.dll
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\obj\Debug\netcoreapp3.1\dotnetReciever.pdb
+C:\repos\ABE\ABE3\dotnetReciever\dotnetReciever\Sender\obj\Debug\netcoreapp3.1\dotnetReciever.genruntimeconfig.cache
